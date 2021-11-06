@@ -13,7 +13,7 @@ Pasos
     * Tip: Ingresar a la consola(CMD) y escribir **git --version**
 * Ingresar a la URL del repo: https://github.com/ju1618/clouddevops-comision5-team1 y clonarlo mediante el medio que mas le guste( consola, gitHubDesktop, gitKraken, etc). 
 
-![git-version.png](git-version.png)
+![git-version.PNG](git-version.PNG)
 
 >	Visual Studio en su ultima versión , luego, instalen el Plugin de Terraform, el Plugin de HTML Marks, y el Plugin de autocompletado, así como los Plugins de Javascript, de Node y React. (Los mismos se verán en clase).
 
@@ -31,7 +31,7 @@ Pasos
 * Ingresar a https://nodejs.org/es/download/ y descargar la versión LTS que corresponda a su SO.
     * Tip: Ingresar a la consola(CMD) y escribir **node -v**  . Como agregado adicional se tiene el gestor de paquetes npm, escribir **npm -v** para corroborar la versión. 
         
-![node-npm-version.png](node-npm-version.png)
+![node-npm-version.PNG](node-npm-version.PNG)
 
 >	Luego será necesario que instalen el modulo de ReactJS y de Express (Se vera en clase como realizarlo).
 
