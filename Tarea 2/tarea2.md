@@ -31,10 +31,13 @@ Pasos
 
 * Una vez abierto la carpeta del repositorio, se puede modificar cualquier archivo como prueba. 
 
-* Luego vamos a "Terminal" -> "New Terminal" y escribir "git init", despues para actualizar el cambio que hicimos usamos los siguiente comandos
-git add <nombrearchivo>
-git commit -m "comentario"
-git push
+* Luego vamos a la carpeta donde se encuentra el archivo que hicimos cambios, y abrimos el git bash (en mi caso yo lo hice asi, si alguno sabe otra manera lo hace)
+
+* Los comandos que se hacen para subir los cambios siempre son los mismos:
+
+* git add nombrearchivo
+* git commit -m "comentario"
+* git push
 
 Y asi el archivo estaria actualizado
 
