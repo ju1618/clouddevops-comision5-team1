@@ -12,6 +12,7 @@
 
 >   Una vez que todos formen parte del proyecto en Github, es necesario que el PO cree dentro del repositorio un archivo readme.md especificando los miembros del proyecto, nombre completo y correos electrónicos, sitios de linkedin, rol laboral y carrera que cursan en EducacionIT
 
-![lista-integrantes.PNG](lista-integrantes.PNG)
+![lista-integrantes1.PNG](lista-integrantes1.PNG)
+![lista-integrantes2.PNG](lista-integrantes2.PNG)
 
 >   Cuando todos estos pasos se encuentren listos, es necesario reportar la finalización de la tarea 1 en Trello, el profesor analizara si se ha realizado correctamente
