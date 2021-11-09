@@ -7,6 +7,7 @@
 >   Cada uno de los miembros del equipo deberán:
 >   Formar parte de un repositorio en Github, en este repositorio, el PO se encargara de crearlo e invitar a los miembros del equipo de Desarrollo y al Scrum master.
 
+![repo-collabs.PNG](repo-collabs.PNG)
 
 >   Una vez que todos formen parte del proyecto en Github, es necesario que el PO cree dentro del repositorio un archivo readme.md especificando los miembros del proyecto, nombre completo y correos electrónicos, sitios de linkedin, rol laboral y carrera que cursan en EducacionIT
 
