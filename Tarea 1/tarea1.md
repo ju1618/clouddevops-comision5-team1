@@ -1,6 +1,6 @@
 >	Creación de Paneles en Trello integrado con Jira y Attlasian
 
-![Trello.PNG](Trello.png)
+![Trello.PNG](Trello.PNG)
 
 >	 El PO se encargara de determinar las tareas del DevTeam, pero en conjunto con ellos, no se las impone, sino que se dialogan
 
