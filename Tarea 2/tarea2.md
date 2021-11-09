@@ -23,8 +23,20 @@ Pasos
 
 >	también es necesario sincronizar Visual Studio Code con la cuenta de Github, en este caso, será necesario que la sincronizen y que cada miembro cargue que ha podido sincronizar su Visual Studio con el repositorio de Github del proyecto.
 
+Pasos
+----------------------------------------------------------------
+* Abrir Visual Studio Code. Si ya tienen clonado el repositorio en una carpeta local solo necesitan ir a "File" -> "Open Folder" e ir hasta la carpeta donde se encuentra el repositorio. 
 
->	Luego, será necesario que todos los miembros del equipo instalen NodeJS en su ultima versión y puedan utilizarlo en Visual Studio.
+* Si todavia no clonaron el repositorio, se puede hacer por VSC. Vamos a "View" -> "Command Palette" y escribir "Git Clone", lo seleccionamos y nos pide el url del repositorio en github, copiamos de github el url y volvemos a VSC para pegarlo, luego guardamos el repositorio en una carpeta local nuestra. Finalmente aparece una notificacion diciendo si queremos abrir el repositorio clonado y le damos que si.
+
+* Una vez abierto la carpeta del repositorio, se puede modificar cualquier archivo como prueba. 
+
+* Luego vamos a "Terminal" -> "New Terminal" y escribir "git init", despues para actualizar el cambio que hicimos usamos los siguiente comandos
+git add <nombrearchivo>
+git commit -m "comentario"
+git push
+
+Y asi el archivo estaria actualizado
 
 Pasos
 ----------------------------------------------------------------
