@@ -10,6 +10,8 @@
 >
 > https://www.linkedin.com/in/valentina-aryelina/
 
+Business Analyst
+
 Cloud DevOps
 
 _______________________________________________________
