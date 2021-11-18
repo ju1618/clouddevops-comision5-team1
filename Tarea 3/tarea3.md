@@ -33,5 +33,18 @@
 *	Jenkins en su ultima versión 
 *	GIT
 
+![kubernetes.png](kubernetes.png)
+
+![terraform.png](terraform.png)
+
+![GIT.png](GIT.png)
+
+![background.png](background.png)
+
+![VS_Code_Screen.png](VS_Code_Screen.png)
+
+![jenkins.png](jenkins.png)
+
+
 >  Esta AMI, será la prueba de que ustedes pueden crear un entorno de DevOps que luego podrán distribuir a otros miembros de su equipo para que creen instancias en base a esta AMI y así tener una infraestructura de desarrollo alineada.
 Una vez realizadas todas estas tareas, y actualizado en Trello así como en el repositorio de Github, podemos dar por concluida cada una de estas tareas.
