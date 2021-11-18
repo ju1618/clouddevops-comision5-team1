@@ -45,6 +45,8 @@
 
 ![jenkins.png](jenkins.png)
 
+![Wamp.png](Wamp.png)
+
 
 >  Esta AMI, será la prueba de que ustedes pueden crear un entorno de DevOps que luego podrán distribuir a otros miembros de su equipo para que creen instancias en base a esta AMI y así tener una infraestructura de desarrollo alineada.
 Una vez realizadas todas estas tareas, y actualizado en Trello así como en el repositorio de Github, podemos dar por concluida cada una de estas tareas.
