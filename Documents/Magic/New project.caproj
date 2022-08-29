@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2wjt0nq018874</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="ground" sid="704963746333247">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Administrador\Downloads\pngkey.com-ground-png-1209156.png" />
+        </object-type>
+        <object-type name="Heroe" sid="341806980370528">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="498324241226027">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="420319002127479">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="169634751256872">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827398637728239" speed="5">
+                    <frame duration="1" hotspotX="1.62676" hotspotY="-0.268571">
+                        <collision-poly>
+                            <point x="0.21831" y="0.0971429" />
+                            <point x="0.471831" y="0.0971429" />
+                            <point x="0.485915" y="0.988571" />
+                            <point x="0.211268" y="0.994286" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fondo" sid="299251966996443">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="862133950970134" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50087" original-source="C:\Users\Administrador\Downloads\png-clipart-blue-star-background-blue-star-background-blue-star.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="948718722318631">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="986747681869343" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Administrador\Downloads\png-clipart-silver-silver-background-angle-triangle.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="857371662791600">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="869766215306384" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="power" sid="563812996773026">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864094444598817" speed="5">
+                    <frame duration="1" hotspotX="0.499355" hotspotY="0.489189" original-source="C:\Users\Administrador\Downloads\pngegg (1).png">
+                        <collision-poly>
+                            <point x="0.332903" y="0.32027" />
+                            <point x="0.496774" y="0.0364865" />
+                            <point x="0.674839" y="0.332432" />
+                            <point x="0.904516" y="0.394594" />
+                            <point x="0.778064" y="0.929731" />
+                            <point x="0.501935" y="0.814865" />
+                            <point x="0.215484" y="0.9" />
+                            <point x="0.0580646" y="0.386486" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fire" sid="119151329119084">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="993846188130728">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="720625621057970">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="321290023191397" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Users\Administrador\Downloads\pngwing.com.png">
+                        <collision-poly>
+                            <point x="0.21319" y="0.319202" />
+                            <point x="0.420245" y="0.23192" />
+                            <point x="0.608896" y="0.291771" />
+                            <point x="0.687117" y="0.511222" />
+                            <point x="0.595092" y="0.728179" />
+                            <point x="0.391104" y="0.860349" />
+                            <point x="0.130368" y="0.850374" />
+                            <point x="0.0904908" y="0.498753" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemy" sid="260875762218060">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="837388539715473">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="334761049257463" speed="5">
+                    <frame duration="1" hotspotX="0.49943" hotspotY="0.499124" original-source="C:\Users\Administrador\Downloads\pngfind.com-evil-smile-png-1101512.png">
+                        <collision-poly>
+                            <point x="0.337412" y="0.390382" />
+                            <point x="0.492588" y="0.507291" />
+                            <point x="0.603696" y="0.404367" />
+                            <point x="0.82502" y="0.253331" />
+                            <point x="0.824874" y="0.832316" />
+                            <point x="0.14434" y="0.786782" />
+                            <point x="0.15421" y="0.242823" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Level 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>event_level1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

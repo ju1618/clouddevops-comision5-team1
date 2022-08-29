@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>event_level1</name>
+    <events>
+        <event-block sid="142579782713031">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="571741885614109" type="System" />
+            </conditions>
+            <actions>
+                <action id="-22" name="Set angle toward position" sid="170975990311716" type="Heroe">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
